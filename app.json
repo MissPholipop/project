@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/hyan/hyan",
+    "pages/data/data",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "拼单"
+    }, {
+      "pagePath": "pages/hyan/hyan",
+      "text": "关注"
+    }, {
+      "pagePath": "pages/data/data",
+      "text": "我的"
+    }]
+  }
+}
