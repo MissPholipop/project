@@ -20,9 +20,13 @@
     "backgroundColor": "#ffffff",
     "list": [{
       "pagePath": "pages/index/index",
+      "iconPath": "pages/images/easyicon.png",
+      "selectedIconPath": "pages/images/easyicon.png",
       "text": "拼单"
     }, {
       "pagePath": "pages/head/header",
+      "iconPath": "pages/images/mytracks.png",
+       "selectedIconPath": "pages/images/mytracks.png",
       "text": "关注"
     }, {
       "pagePath": "pages/data/data",

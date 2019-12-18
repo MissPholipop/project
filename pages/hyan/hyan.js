@@ -7,6 +7,7 @@ var helloData = {
       time: '2019-12-18'
     }
 }
+var order = ['red', 'yellow', 'blue', 'green', 'red']
 Page({
 data: helloData,
   changeName: function(e) {
