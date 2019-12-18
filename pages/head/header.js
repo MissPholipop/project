@@ -1,4 +1,6 @@
-var message = {}
+var message = {
+    
+}
 Page({
 data: message,
 })

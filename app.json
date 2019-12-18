@@ -2,9 +2,10 @@
   "pages":[
     "pages/index/index",
     "pages/hyan/hyan",
-    "pages/head/header",
     "pages/data/data",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/head/header"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -13,11 +14,15 @@
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
     "list": [{
-      "pagePath": "pages/head/header",
+      "pagePath": "pages/index/index",
       "text": "拼单"
     }, {
-      "pagePath": "pages/hyan/hyan",
+      "pagePath": "pages/head/header",
       "text": "关注"
     }, {
       "pagePath": "pages/data/data",

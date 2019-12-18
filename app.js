@@ -10,31 +10,31 @@ App({
 wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
-        if (res.code) {
+        // if (res.code) {
           
-          //获取openId
-          var that = getApp();
-          wx.request({
-            url: 'http://127.0.0.1/index.php',
-            data: { 
-              code: res.code
-            },
-            method: 'GET',
-            header: { 'content-type': 'application/json' },
-            success: function (openIdRes) {
-              console.info("获取用户openId成功");
-              that.globalData.openID = openIdRes.data.openid;
-            },
-            fail: function (error) {
-              console.info("获取用户openId失败");
-              this.globalData.openID = "失败2";
-              console.info(error);
-            },
-            complete: function (openIdRes){
-              //this.globalData.openID ="Complete";
-            }
-          })
-        }
+        //   //获取openId
+        //   var that = getApp();
+        //   wx.request({
+        //     url: 'http://127.0.0.1/index.php',
+        //     data: { 
+        //       code: res.code
+        //     },
+        //     method: 'GET',
+        //     header: { 'content-type': 'application/json' },
+        //     success: function (openIdRes) {
+        //       console.info("获取用户openId成功");
+        //       that.globalData.openID = openIdRes.data.openid;
+        //     },
+        //     fail: function (error) {
+        //       console.info("获取用户openId失败");
+        //       this.globalData.openID = "失败2";
+        //       console.info(error);
+        //     },
+        //     complete: function (openIdRes){
+        //       //this.globalData.openID ="Complete";
+        //     }
+        //   })
+        // }
       }
     })
     // 获取用户信息

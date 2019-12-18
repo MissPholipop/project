@@ -17,7 +17,7 @@ Page({
   },
   navigation2Test:function(){
     wx.navigateTo({
-      url: '/pages/data/data',
+      url: '../hyan/hyan',
       success: function(res){
         // success
       },
