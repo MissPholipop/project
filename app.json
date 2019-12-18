@@ -2,9 +2,9 @@
   "pages":[
     "pages/index/index",
     "pages/hyan/hyan",
+    "pages/head/header",
     "pages/data/data",
     "pages/logs/logs"
-    
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -14,7 +14,7 @@
   },
   "tabBar": {
     "list": [{
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/head/header",
       "text": "拼单"
     }, {
       "pagePath": "pages/hyan/hyan",
