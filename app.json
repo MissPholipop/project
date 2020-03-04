@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/bilibili/index",
     "pages/index/index",
     "pages/hyan/hyan",
     "pages/data/data",
